@@ -20,7 +20,7 @@ public class BBMcord {
     private void doClientStuff(final FMLClientSetupEvent event) {
         // do something that can only be done on the client
         DiscordRPC.discordInitialize("869624084311445564", new DiscordEventHandlers(), true);
-        DiscordRichPresence rpc = new DiscordRichPresence.Builder("Pandora")
+        DiscordRichPresence rpc = new DiscordRichPresence.Builder("Astraea")
                 .setStartTimestamps(System.currentTimeMillis() / 1000)
                 .build();
         DiscordRPC.discordUpdatePresence(rpc);
