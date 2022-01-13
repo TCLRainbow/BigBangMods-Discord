@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "bbmcord",
+  "version": "${version}",
+  "name": "BBMcord",
+  "description": "Discord RPC for BigBangMods modpack",
+  "authors": [
+    "ChingDim"
+  ],
+  "contact": {
+    "website": "https://discord.gg/g6Yrteq",
+    "repo": "https://github.com/TCLRainbow/BigBangMods-Discord"
+  },
+  "license": "GPL-v3",
+  "icon": "assets/BBMcord/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "chingdim.bbmcord.BBMcord"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "minecraft": "1.18.1"
+  }
+}
