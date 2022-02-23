@@ -122,6 +122,7 @@ shadowJar {
         include(dependency('com.github.Vatuu:discord-rpc:'))
     }
     classifier ''
+    exclude 'com/**' //BBMcord: discord-rpc's JNA depdency clashes with Forge
 }
 
 dependencies {
