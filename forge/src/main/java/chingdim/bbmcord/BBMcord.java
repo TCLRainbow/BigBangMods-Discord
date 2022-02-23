@@ -49,8 +49,8 @@ public class BBMcord {
 
 
     private static void updateRPCDetails(String details) {
-        String codename = "Pandora";
-        DiscordRichPresence rpc = new DiscordRichPresence.Builder(codename + " (Forge 1.16.5)")
+        String codename = "Astraea";
+        DiscordRichPresence rpc = new DiscordRichPresence.Builder(codename + " (Forge 1.17.1)")
                 .setDetails(details)
                 .setStartTimestamps(System.currentTimeMillis() / 1000)
                 .setBigImage(codename.toLowerCase(), codename)
