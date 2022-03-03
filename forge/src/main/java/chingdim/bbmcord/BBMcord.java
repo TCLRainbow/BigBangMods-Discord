@@ -49,11 +49,11 @@ public class BBMcord {
 
 
     private static void updateRPCDetails(String details) {
-        String codename = "Astraea";
-        DiscordRichPresence rpc = new DiscordRichPresence.Builder(codename + " (Forge 1.17.1)")
+        String assetUrl = "https://i.imgur.com/YYbVdzn.png";
+        DiscordRichPresence rpc = new DiscordRichPresence.Builder("Exia (Forge 1.17.1)")
                 .setDetails(details)
                 .setStartTimestamps(System.currentTimeMillis() / 1000)
-                .setBigImage(codename.toLowerCase(), codename)
+                .setBigImage(assetUrl, assetUrl)
                 .build();
         DiscordRPC.discordUpdatePresence(rpc);
     }
