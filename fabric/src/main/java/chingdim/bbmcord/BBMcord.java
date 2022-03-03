@@ -31,8 +31,8 @@ public class BBMcord implements ClientModInitializer {
     }
 
     private static void updateRPCDetails(String details) {
-        final String assetUrl = "https://i.imgur.com/yAgOBMQ.png";
-        DiscordRichPresence rpc = new DiscordRichPresence.Builder("Astraea GN (Fabric 1.17.1)")
+        final String assetUrl = "https://i.imgur.com/XkVWkhQ.png";
+        DiscordRichPresence rpc = new DiscordRichPresence.Builder("Mythra Aegis (Fabric 1.18)")
                 .setStartTimestamps(System.currentTimeMillis() / 1000)
                 .setDetails(details)
                 .setBigImage(assetUrl, assetUrl)
